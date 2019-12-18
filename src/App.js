@@ -43,6 +43,10 @@ const GALLERY_ITEMS = [
     link:'https://github.com/emsha/bumble_bot',
     photo:MoicImage,
     desc: "Designed and implemented an automated API-less bumble robot using resnet, facial detection, and browser automation (pytorch, opencv, selenium). Mostly a proof of concept project."},
+  {title:'github.showRepo(self);',
+    link:'https://github.com/emsha/portfolio-site',
+    photo:null,
+    desc:"Link to the GitHub repository containing the code for this website."}
 ];
 
 class App extends Component {
