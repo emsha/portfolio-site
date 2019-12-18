@@ -1,0 +1,13 @@
+pink: #EBD6E1
+blue: #E0E8EB
+beige: #EBE8E0
+gray: #5F677D
+-----------
+
+red and lively from https://visme.co/blog/website-color-schemes/
+
+#5D001E - dark crimson
+#E3E2DF - beige
+#E3AFBC - light pink
+#9A1750 - maroon
+#EE4C7C - hotter pink

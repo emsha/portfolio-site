@@ -1,0 +1,144 @@
+/* pink: #EBD6E1
+blue: #E0E8EB
+beige: #EBE8E0
+gray: #5F677D
+
+-----------
+maroon:
+#5D001E - dark crimson
+#E3E2DF - beige
+#E3AFBC - light pink
+#9A1750 - maroon
+#EE4C7C - hotter pink
+*/
+
+.SiteWrapper{
+  min-height:100vh;
+  min-width:100vw;
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+}
+
+
+
+.AppWrapper{
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100vw;
+
+
+  -webkit-transition: background-color 500ms;
+  -moz-transition: background-color 500ms;
+  -o-transition: background-color 500ms;
+  transition: background-color 500ms;
+}
+
+.AppWrapper-small {
+  font-size: small;
+}
+
+.theme-maroon-a {
+  background-color: #E3E2DF;
+  color: black;
+}
+
+.theme-maroon-b {
+  background-color: #5D001E;
+  color: #E3E2DF;
+}
+
+.theme-light-a {
+  background-color: #EBE8E0;
+  color: black;
+}
+
+.theme-dark-a {
+  /* transition: background-color .5 ease-in; */
+  background-color: #5F677D;
+  color: #EBE8E0;
+  color: #E0E8EB;
+}
+
+.theme-dark-b{
+  background-color: #2E3138;
+  color: #E0E8EB;
+}
+
+.theme-white-a {
+  /* transition: background-color .5 ease-in; */
+  background-color: white;
+  color: black;
+}
+
+.header {
+  display: flex;
+  fiex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-horizontal: 5vw;
+
+  width: auto;
+  -webkit-transition: background-color 500ms;
+  -moz-transition: background-color 500ms;
+  -o-transition: background-color 500ms;
+  transition: background-color 500ms;
+}
+
+.theme-light-b{
+  background-color: #E0E8EB;
+  color: black;
+}
+
+
+.theme-white-b{
+
+}
+
+.theme-ginger-a{
+  background-color: #ffeea5;
+  color: black;
+}
+.theme-ginger-b{
+  background-color: #ffd88e;
+  color: black;
+}
+
+.Menu {
+
+
+  -webkit-transition: x-position 500ms;
+  -moz-transition: x-position 500ms;
+  -o-transition: x-position 500ms;
+  transition: x-position 500ms;
+}
+
+/* This fires as soon as the element enters the DOM */
+.burger-transition-enter{
+  width:0;
+
+}
+/* This is where we can add the transition*/
+.burger-transition-enter-active{
+  width:150px;
+  transition: all 500ms ease-in;
+}
+/* This fires as soon as the this.state.showList is false */
+.burger-transition-exit{
+    width:150px;
+}
+/* fires as element leaves the DOM*/
+.burger-transition-exit-active{
+    width:0;
+    transition: all 500ms ease-out;
+}
+
+.body {
+  display:flex;
+  /* background-color: inherit; */
+  flex-direction:column;
+  align-items: center;
+}
+
+button:focus {outline:0;}

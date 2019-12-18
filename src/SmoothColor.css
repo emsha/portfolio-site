@@ -1,0 +1,33 @@
+.SmoothColor{
+  -webkit-transition: background-color 500ms;
+  -moz-transition: background-color 500ms;
+  -o-transition: background-color 500ms;
+  transition: background-color 500ms;
+
+  -webkit-transition: border-color 500ms;
+  -moz-transition: border-color 500ms;
+  -o-transition: border-color 500ms;
+  transition: border-color 500ms;
+
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.SmoothColor-fast{
+  -webkit-transition: background-color 250ms;
+  -moz-transition: background-color 250ms;
+  -o-transition: background-color 250ms;
+  transition: background-color 250ms;
+
+  -webkit-transition: border-color 250ms;
+  -moz-transition: border-color 250ms;
+  -o-transition: border-color 250ms;
+  transition: border-color 250ms;
+
+  -webkit-transition: opacity 250ms;
+  -moz-transition: opacity 250ms;
+  -o-transition: opacity 250ms;
+  transition: opacity 250ms;
+}
